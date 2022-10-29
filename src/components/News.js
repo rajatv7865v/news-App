@@ -30,12 +30,12 @@ export default function News() {
         return (
 
           <div className="container"key={i}>
-            <img className="image" src={item.urlToImage} alt="Mountain" />
+            <img className="image" src={item?.urlToImage} alt="Mountain" />
             
             <div className="author-container">
               
               <h1>{item.title}</h1>
-              <h1 className="link"><Link to={`/newDetail/${item.title}`}>Read more...</Link></h1>
+              <h1 className="link"><Link to={`/newDetail/${item?.title}`}>Read more...</Link></h1>
             </div>
        </div>
         );
