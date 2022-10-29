@@ -15,7 +15,7 @@ const NewsDetail = () => {
     useEffect(() => {
      const getapi=async()=>{
       let getResponse=await axios.get(
-        "https://newsapi.org/v2/everything?q=bitcoin&apiKey=046d2e14e65b4d88acbaaa64c353139b"
+        "https://newsapi.org/v2/everything?q=tesla&from=2022-09-29&sortBy=publishedAt&apiKey=ee1b0385760345cfb7c60c76b19e826d"
       )
       getResponse=await getResponse.data
       // console.log("data ",getResponse)
