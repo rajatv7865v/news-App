@@ -20,7 +20,7 @@ export default function News() {
      
       
   }, []);
-  // console.log("data is",data)
+
 
   return (
     <>

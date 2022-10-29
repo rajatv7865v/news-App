@@ -6,9 +6,9 @@ import './NewsDetail.css'
 
 const NewsDetail = () => {
     const params=useParams().title;
-    // console.log(params)
+    
     const [data, setData] = useState([]);
-    // console.log("data is",data)
+ 
 
   
 
