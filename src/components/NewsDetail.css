@@ -1,0 +1,31 @@
+.detail-main-container{
+    width: 100%;
+}
+.detail-container{
+width: 80%;
+margin: auto;
+}
+.detail-image{
+    width: 100%;
+}
+.detail-author-container{
+width: 100%;
+text-align: center;
+padding: 5px;
+}
+h1{
+font-size: 40px ;
+}
+h2{
+font-size: 35px;
+}
+h3{
+font-size: 30px;
+
+}
+h5{
+font-size: 20px bold;
+color: red;
+
+
+}
