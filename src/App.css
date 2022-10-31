@@ -30,6 +30,10 @@ align-items: center;
 
 
 }
+.author-container h1{
+  font-size: 30px;
+  font-weight: 400;
+}
 .link{
  background-color: blue;
  color: white;
